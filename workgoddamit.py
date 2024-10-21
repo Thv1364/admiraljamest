@@ -20,6 +20,8 @@ if want==1:
         result=1
     elif(fullde==2):
         result=2
+    if(fullde==0):
+        result=0
     else:
         while(a<fullde):
             a=a*2
@@ -50,5 +52,7 @@ elif want==9:
         
     print("\n \n Your decimal number is " + str(result))   
 
+else:
+    print("idiot don't type in a different number, either 1 or 9 (which btw is 1001)")
 
 
